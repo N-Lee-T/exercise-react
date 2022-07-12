@@ -1,38 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide');
+
+body {
+  background-color: #424642;
+  font-family:'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #00FFC6;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #F2FA5A;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+button {
+  border-radius: 8px;
+  font-family: 'Audiowide', cursive;
+  color: #8843F2;
+  font-size: 20px;
+  background: #00FFC6;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #ddd;
+  color: #8843F2;
+  text-decoration: none;
+}
+
+.footie {
+  color:#00FFC6;
+}
+
+Link {
+  color: #F2FA5A;
+}
+
+header {
+  text-align: center;
+  color: #8843F2;
+  font-size: 35px;
+  font-family: 'Audiowide', cursive;
+}
+
+.headfirst {
+  color: #F2FA5A;
+}
+
+h2 {
+  font-family: 'Audiowide', cursive;
+}
+
+hr {
+  border: dotted #F2FA5A 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+input:valid {
+  color: #8843F2;
+  background-color: #F2FA5A;
+  font-family:'Verdana', 'Geneva', 'Tahoma', sans-serif;
+}
+
+input:invalid {
+  border: 2px red;
+}
+
+input:invalid:required {
+  background-image: white;
+}
+
+nav {
+  font-family: 'Audiowide', cursive;
+  color: #F2FA5A;
+  text-decoration: none;
+}
+
+select {
+  color:  #8843F2;
+  background-color: #F2FA5A; 
+}
+
+td, th {
+  border: 1px solid #00FFC6;
+  padding: 8px;
+}
+
+tr {
+  background-color: #ddd;
+  color: #8843F2;
+}
+
+tr:hover {background-color: #CFFFDC;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #EEEEEE;
+  color: #8843F2;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: inline;
+  background-color: #ddd;
 }
